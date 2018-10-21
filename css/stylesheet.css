@@ -9,7 +9,7 @@ body,html {
 }
 
 #background{
-    background-image: url('https://npatel023.github.io/Restaurant/img/main.jpeg');
+    background-image: url('https://npatel023.github.io/RestaurantWebsite/img/main.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,6 +83,8 @@ li.dropdown {
 .dropdown-content a:hover {
     background-color: rgba(205,80,67,0.3);
 }
+
+
 /* Dropdown Menu End */
 
 .section {
@@ -96,7 +98,7 @@ li.dropdown {
 }
 
 #food-menu-bg {
-    background-image: url('https://npatel023.github.io/Restaurant/img/foodmenu.jpeg');
+    background-image: url('https://npatel023.github.io/RestaurantWebsite/img/foodmenu.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -242,7 +244,7 @@ li.dropdown {
 }
 /* Hours Popup display end */
 
-#restuarant-information{
+#restaurant-information{
     background: #361D1A;
     color: #eee;
     height: 100%;
@@ -280,8 +282,9 @@ li.dropdown {
     position: relative;
 }
 
-.restuarant-title{
+.restaurant-title{
     position: absolute; 
+    width: 100%;
     top: -5px;
     font-size: 1rem;
     font-weight: bold;
