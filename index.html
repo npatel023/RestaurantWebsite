@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Noto+Sans+JP|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>GateWay To India</title>
+</head>
+
+<body>
+    <div id="background">
+        <ul>
+            <li class="dropdown">
+                <a href="#!" class="dropbtn">Menu  <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#Appetizers">Appetizers</a>
+                    <a href="#Entrees">Entrees</a>
+                    <a href="#Breads">Breads</a>
+                    <a href="#Deserts">Deserts</a>
+                    <a href="#Beverages">Beverages</a>
+                </div>
+            </li>
+            <li><a href="#Contact">Contact</a></li>
+            <li>
+                <a class="pointer" onclick="showHoursPopup()">Hours</a>
+                <div id="hours" class="popup">
+                    <p style="padding-top: 10px;"class="popup-text">Monday: Closed<span class="close" onclick="closeHoursPopup()">X</span></p>
+                    <p class="popup-text hours-popup">Daily Lunch Buffet</p>
+                    <p class="popup-text">Tuesday - Friday: 11:00am - 2:30pm</p>
+                    <p class="popup-text">Saturday - Sunday: 11:00am - 3:00pm</p>
+                    <p class="popup-text hours-popup">Evening Hours</p>
+                    <p class="popup-text">Tuesday - Saturday: 5:00pm - 9:30pm</p>
+                    <p style="padding-bottom: 10px;" class="popup-text">Sunday: 5:00pm - 9:00pm</p>
+                </div>
+            </li>
+        </ul>
+        
+        <div class="text">
+            <span class="border">
+                GateWay To India
+            </span>
+        </div>
+    </div>
+
+    <section id="Menu" class="section">
+        <div id="food-menu-bg" class="section-img">
+            <!-- <h1>Menu</h1> -->
+            <div class="menu-text">
+                <span class="border">
+                    Menu
+                </span>
+            </div>
+        </div>
+        <div class="container">
+            <div id="Appetizers" class="flex-item">
+                <h3 class="Menu-title">Appetizers</h3>
+                <div class="menu-grid">
+                    <p class="Menu-item">Vegetable Samosas<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">Cone shaped pastry stuffed with potatoes and peas</span>
+                    </p>
+                    <p class="Menu-item">Spring Rolls<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">Mixed vegetables rolled in a wrapper, deep fried</span>
+                    </p>
+                    <p class="Menu-item">Aloo Papri Chaat<span class="menu-price">7.99</span>
+                        <br>
+                        <span class="description">garbonzo Beans, potatoes, Puffed rice, Crispy Lentils, Tomatoes,
+                            Onions, and Cilantro with Mint and Tamarind</span>
+                    </p>
+                    <p class="Menu-item">Paneer Pakoras<span class="menu-price">6.99</span>
+                        <br>
+                        <span class="description">homemade cheese slices - lightly battered and deep fried</span>
+                    </p>
+                    <p class="Menu-item">Mixed Vegetable Pakora<span class="menu-price">6.99</span>
+                        <br>
+                        <span class="description">Potatoes, Cauliflowers, Onion, and Deep Fried</span>
+                    </p>
+                    <p class="Menu-item">Vegetable Sampler<span class="menu-price">8.99</span>
+                        <br>
+                        <span class="description">A mixed sampler of Samosa, Spring Rolls, Paneer Pakora & Vegetable
+                            Pakora</span>
+                    </p>
+                    <p class="Menu-item">Chicken Pakoras<span class="menu-price">8.99</span>
+                        <br>
+                        <span class="description">Strips of deep fried chicken, lightly breaded</span>
+                    </p>
+                    <p class="Menu-item">Fried Calamari<span class="menu-price">10.99</span>
+                        <br>
+                        <span class="description">deep fried calamari, lightly battered</span>
+                    </p>
+                    <p class="Menu-item">Chef Special<span class="menu-price">12.99</span>
+                        <br>
+                        <span class="description">Chicken Tikka, Seekh Kabab sauteed in our chef's special secret sauce</span>
+                    </p>
+                    <p class="Menu-item">Chicken Kati Kebab<span class="menu-price">12.99</span>
+                        <br>
+                        <span class="description">Chicken Tikka and Onion sauteed in Tamarind sauce, and wrapped in
+                            Roti</span>
+                    </p>
+                    <p class="Menu-item">Chili Paneer<span class="menu-price">7.99</span>
+                        <br>
+                        <span class="description">Paneer cubes marianated in corn flour, all-purpose flour, salted and
+                            then deep fried in sauces</span>
+                    </p>
+                    <p class="Menu-item">Chicken 65<span class="menu-price">8.99</span>
+                        <br>
+                        <span class="description">A spicy, deep fried boneless chicken tossed in special sauces</span>
+                    </p>
+                    <p class="Menu-item">Chicken Manchurian<span class="menu-price">8.99</span>
+                        <br>
+                        <span class="description">Deep fried marianated boneless chicken tossed with a corn flour based
+                            Ginger-garlic concoction</span>
+                    </p>
+                    <p class="Menu-item">Cream of Tomato Soup<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">Warm soup made from fresh tomatoes</span>
+                    </p>
+                    <p class="Menu-item">Dal Soup<span class="menu-price">4.49</span>
+                        <br>
+                        <span class="description">Traditional Indian yellow lentil soup</span>
+                    </p>
+                    <p class="Menu-item">Garden Green Salad<span class="menu-price">5.99</span>
+                        <br>
+                        <span class="description">An assortment of garden fresh vegetables</span>
+                    </p>
+                    <p class="Menu-item">Mango Garden Salad<span class="menu-price">6.99</span>
+                        <br>
+                        <span class="description">An assortment of garden fresh vegetables with mangoes</span>
+                    </p>
+                </div>
+            </div>
+            <div id="Entrees" class="flex-item">
+                <h3 class="Menu-title">Entrees</h3>
+                <span id="Note" class="Menu-item">Note: Vegetable entrees will be prepared to vegan standards upon request</span>
+                <div class="entrees-grid">
+                    <p class="Menu-item">Tikka Masala* (Fish not included)
+                        <br>
+                        <span class="description">simmered with a sauce of cashews and cream, with onions, tomatoes,
+                            and fenugreek leaves</span>
+                    </p>
+                    <p class="Menu-item">Korma
+                        <br>
+                        <span class="description">Simmered in a mild creamy sauce with raisins, cashews, nuts, tomates,
+                            and onions</span>
+                    </p>
+                    <p class="Menu-item">Kadai
+                        <br>
+                        <span class="description">stir fried with bell peppers, tomatoes, onions, and spices</span>
+                    </p>
+                    <p class="Menu-item">Vindaloo
+                        <br>
+                        <span class="description">simmered in vinegar, hot red peppers and spices</span>
+                    </p>
+                    <p class="Menu-item">Saag
+                        <br>
+                        <span class="description">simmered in creamy spinach sauce</span>
+                    </p>
+                    <p class="Menu-item">Makhani
+                        <br>
+                        <span class="description">simmered in a creamy tomato sauce with yogurt and butter</span>
+                    </p>
+                    <p class="Menu-item">Green Masala
+                        <br>
+                        <span class="description">simmered in a blend of cilantro, coconut milk, ginger, garlic, and
+                            green peppers</span>
+                    </p>
+                    <p class="Menu-item">Almond Entrees
+                        <br>
+                        <span class="description">prepared with pureed almonds, coconut milk, and spices</span>
+                    </p>
+                    <p class="Menu-item">Mango Entrees
+                        <br>
+                        <span class="description">prepared with sweet mangoes and spices</span>
+                    </p>
+                    <p class="Menu-item">Biryani
+                        <br>
+                        <span class="description">Cooked with basmati rice and indian spices, richly flavored with
+                            saffron and topped with nuts</span>
+                    </p>
+                    <div id="mobile" class="entree-choices">
+                        <p id="yourchoices" class="options">Entrees above come with your choice of</p>
+                        <p class="options">Mixed Vegetables<span class="menu-price">11.99</span></p>
+                        <p class="options">Paneer (fresh cheese)<span class="menu-price">12.99</span></p>
+                        <p class="options">Chicken<span class="menu-price">13.99</span></p>
+                        <p class="options">Lamb<span class="menu-price">15.99</span></p>
+                        <p class="options">Shrimp<span class="menu-price">15.99</span></p>
+                        <p class="options">Fish<span class="menu-price">15.99</span></p>
+                    </div>
+                    <div id="desktop" class="entree-choices">
+                        <p id="yourchoices" class="options">Entrees on the right come with your choice of</p>
+                        <p class="options">Mixed Vegetables<span class="menu-price">11.99</span></p>
+                        <p class="options">Paneer (fresh cheese)<span class="menu-price">12.99</span></p>
+                        <p class="options">Chicken<span class="menu-price">13.99</span></p>
+                        <p class="options">Lamb<span class="menu-price">15.99</span></p>
+                        <p class="options">Shrimp<span class="menu-price">15.99</span></p>
+                        <p class="options">Fish<span class="menu-price">15.99</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-item">
+                <hr>
+                <div class="menu-grid">
+                    <p class="Menu-item">Kashmiri Pulav<span class="menu-price">11.99</span>
+                        <br>
+                        <span class="description">Basmati rice cooked with light herbs, spices and flavored with cherries, and nuts</span>
+                    </p>
+                    <p class="Menu-item">Saag Biryani<span class="menu-price">12.99</span>
+                        <br>
+                        <span class="description">Spinach flavored rice with indian spice</span>
+                    </p>
+                    <p class="Menu-item">Aloo Bhaji<span class="menu-price">10.99</span>
+                        <br>
+                        <span class="description">Potatoes cooked with sauteed onions, tomatoes, cumin seeds</span>
+                    </p>
+                    <p class="Menu-item">Cabbage<span class="menu-price">10.99</span>
+                        <br>
+                        <span class="description">Cabbage cooked with onions, shredded coconut and sweet coconut milk</span>
+                    </p>
+                    <p class="Menu-item">Baingan Bharta<span class="menu-price">11.99</span>
+                        <br>
+                        <span class="description">Eggplant roasted in clay oven, mashed and blended with rice spices</span>
+                    </p>
+                    <p class="Menu-item">Mushroom Masala Wala<span class="menu-price">10.99</span>
+                        <br>
+                        <span class="description">Mushrooms cooked in rich indian spices</span>
+                    </p>
+                    <p class="Menu-item">Dal Makhani<span class="menu-price">10.99</span>
+                        <br>
+                        <span class="description">Black lentils and kidney beans tempered with ginger, garlic, onions, butter, and spices</span>
+                    </p>
+                    <p class="Menu-item">Muttat Paneer<span class="menu-price">11.99</span>
+                        <br>
+                        <span class="description">Homemade fresh cheese and green peas cooked in a tomato and onion sauce</span>
+                    </p>
+                    <p class="Menu-item">Malai Kofta<span class="menu-price">11.99</span>
+                        <br>
+                        <span class="description">Dumplings made of cheese and vegetables cooked in a tomato and onion sauce</span>
+                    </p>
+                    <p class="Menu-item">Chicken Curry<span class="menu-price">13.99</span>
+                        <br>
+                        <span class="description">Chicken cooked in a blend of tomato and spices</span>
+                    </p>
+                    <p class="Menu-item">Chicken Chili<span class="menu-price">13.99</span>
+                        <br>
+                        <span class="description">Boneless pieces of chicken cooked with green chilis</span>
+                    </p>
+                    <p class="Menu-item">Lamb Rogan Josh<span class="menu-price">13.99</span>
+                        <br>
+                        <span class="description">Pieces of lamb cooked in an onion, tomato, and yogurt sauce</span>
+                    </p>
+                    <p class="Menu-item">Lamb Madrasi<span class="menu-price">14.99</span>
+                        <br>
+                        <span class="description">Lamb pieces cooked in a mixture of coconut, tomato, onion, and tamarind sauce</span>
+                    </p>
+                    <p class="Menu-item">Fish Hariyaali Curry<span class="menu-price">15.99</span>
+                        <br>
+                        <span class="description">fish cooked in mint, cilantro, green pepper, ginger, garlic, and coconut milk</span>
+                    </p>
+                    <p class="Menu-item">Fish Curry<span class="menu-price">15.99</span>
+                        <br>
+                        <span class="description">fish cooked in coconut milk, onion, and tomatoes</span>
+                    </p>
+                    <p class="Menu-item">Goat Shrimp Curry<span class="menu-price">15.99</span>
+                        <br>
+                        <span class="description">shrimps cooked in coconut milk, onion, tomatoes, and tamarind</span>
+                    </p>
+                    <p class="Menu-item">Keema Muttar<span class="menu-price">15.99</span>
+                        <br>
+                        <span class="description">Minced lamb and green peas cooked with ginger, garlic, green chili, and cilantro</span>
+                    </p>
+                    <p class="Menu-item">Shrimp Chili Fry<span class="menu-price">10.99</span>
+                        <br>
+                        <span class="description">Fresh shrimp sauteed with bell pepper, onion, tomato, ginger and garlic</span>
+                    </p>
+                </div>
+            </div>
+            <div id="Breads" class="flex-item">
+                <h3 class="Menu-title">Breads</h3>
+                <div class="menu-grid">
+                    <p class="Menu-item">Naan<span class="menu-price">2.49</span>
+                        <br>
+                        <span class="description">Flat leavened bread baked in a clay oven</span>
+                    </p>
+                    <p class="Menu-item">Roti<span class="menu-price">2.49</span>
+                        <br>
+                        <span class="description">Whole wheat bread baked in clay oven</span>
+                    </p>
+                    <p class="Menu-item">Garlic Naan<span class="menu-price">3.49</span>
+                        <br>
+                        <span class="description">Flat leavened bread topped with garlic and baked in clay oven</span>
+                    </p>
+                    <p class="Menu-item">Onion Kulcha<span class="menu-price">3.49</span>
+                        <br>
+                        <span class="description">A light bread stuffed with onions and fresh cilantro</span>
+                    </p>
+                    <p class="Menu-item">Aloo Paratha<span class="menu-price">3.49</span>
+                        <br>
+                        <span class="description">Whole wheat bread stuffed with a thin layer of potatoes</span>
+                    </p>
+                    <p class="Menu-item">Poori<span class="menu-price">3.49</span>
+                        <br>
+                        <span class="description">deep fried whole wheat bread</span>
+                    </p>
+                    <p class="Menu-item">Batura<span class="menu-price">3.49</span>
+                        <br>
+                        <span class="description">Deep fried leavened bread</span>
+                    </p>
+                    <p class="Menu-item">Cheese Naan/Paneer Kultcha<span class="menu-price">4.49</span>
+                        <br>
+                        <span class="description">Light bread stuff with fresh cheese</span>
+                    </p>
+                    <p class="Menu-item">Kashmiri Naan<span class="menu-price">4.49</span>
+                        <br>
+                        <span class="description">Light bread stuffed with minced cherries</span>
+                    </p>
+                    <p class="Menu-item">Keema Naan<span class="menu-price">5.99</span>
+                        <br>
+                        <span class="description">Light bread stuffed with minced lamb</span>
+                    </p>
+                    <p class="Menu-item">Jalapeno Naan/Bullet Naan<span class="menu-price">3.49</span>
+                        <br>
+                        <span class="description">Light bread topped with chopped jalapeno</span>
+                    </p>
+                </div>
+            </div>
+            <div id="Deserts" class="flex-item">
+                <h3 class="Menu-title">Deserts</h3>
+                <div class="menu-grid">
+                    <p class="Menu-item">Mango Ice Cream<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">homemade ice cream with mangoes</span>
+                    </p>
+                    <p class="Menu-item">Gulab Jamun<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">Fresh tea cakes soaked in sweet saffron syrup</span>
+                    </p>
+                    <p class="Menu-item">Carrot Pudding<span class="menu-price">3.99</span>               </p>
+                    <p class="Menu-item">Rice Pudding<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">Indian rice cooked in milk, topped with cashews</span>
+                    </p>
+                    <p class="Menu-item">Pistachio Ice Cream<span class="menu-price">4.99</span>
+                        <br>
+                        <span class="description">Homemade ice cream with pistachios</span>
+                    </p>
+                </div>
+            </div>
+            <div id="Beverages" class="flex-item">
+                <h3 class="Menu-title">Beverages</h3>
+                <div class="menu-grid">
+                    <p class="Menu-item">Coke/Diet Coke/Iced Tea/Sprite<span class="menu-price">2.49</span>
+                    </p>
+                    <p class="Menu-item">Masala Tea<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">Indian tea made with cardmom, ginger and cinnamon bolied in milk</span>
+                    </p>
+                    <p class="Menu-item">Mango Shake<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">Indian drink made with milk</span>
+                    </p>
+                    <p class="Menu-item">Mango/Salted/Sweet Lassi<span class="menu-price">3.99</span>
+                        <br>
+                        <span class="description">Indian drink made with yogurt</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="restuarant-information">
+        <div class="contact-container">
+            <div class="contact-item">
+                <p class="contact-header">Address</p>
+                <a href="https://www.google.com/maps/place/3115+Chatham+Rd,+Springfield,+IL+62704/@39.7627022,-89.6894287,17z/data=!3m1!4b1!4m5!3m4!1s0x887538919961809d:0x5fa4b0b0799d481d!8m2!3d39.7627022!4d-89.68724" class="address-flex" target="_blank">
+                    <i class="fas fa-map-marker-alt large"></i>  
+                    <p class="address-text">
+                        <span class="restuarant-title">GATEWAY TO INDIA</span><br>
+                        <span>3115 Chatham Rd</span><br>
+                        Springfield, IL 62704
+                    </p>
+                </a>
+            </div>
+            <div id="Contact" class="contact-item">
+                <p class="contact-header">Business Hours</p>
+                <p class="hours-text">Monday Closed</p>
+                <p class="hours-text hours">Daily Lunch Buffet</p>
+                <p class="hours-text">Tuesday - Friday: 11:00am - 2:30pm</p>
+                <p class="hours-text">Saturday - Sunday: 11:00am - 3:00pm</p>
+                <p class="hours-text hours">Evening Hours</p>
+                <p class="hours-text">Tuesday - Friday: 5:00pm - 9:30pm</p>
+                <p class="hours-text">Saturday - Sunday: 5:00am - 9:00pm</p>
+            </div>
+            <div class="contact-item">
+                <p class="contact-header">Place An Order To Pickup</p>
+                <p>We also Cater, call us for details!</p>
+                <a href="tel:1-217-726-6890" class="tel">217-726-6890</a>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
