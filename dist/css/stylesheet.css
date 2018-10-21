@@ -9,7 +9,7 @@ body,html {
 }
 
 #background{
-    background-image: url('http://npatel023.github.io/Restaurant/img/main.jpeg');
+    background-image: url('https://npatel023.github.io/Restaurant/img/main.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ li.dropdown {
 }
 
 #food-menu-bg {
-    background-image: url('http://npatel023.github.io/Restaurant/img/foodmenu.jpeg');
+    background-image: url('https://npatel023.github.io/Restaurant/img/foodmenu.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
