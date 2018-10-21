@@ -267,6 +267,10 @@ li.dropdown {
     text-align: center;
 }
 
+.contact-header:nth-child(1){
+    padding-top: 30px;
+}
+
 .address-flex{
     display: flex;
     flex-direction: row;
