@@ -64,7 +64,7 @@ li.dropdown {
     position: absolute;
     background-color: #000;
     min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba (0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -75,15 +75,6 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: rgba(205,80,67,0.3);
-}
-
 
 /* Dropdown Menu End */
 
@@ -204,7 +195,6 @@ li.dropdown {
     cursor: pointer;
 }
 
-
 /* Hours Popup display */
 .popup{
     display: none;
@@ -228,6 +218,8 @@ li.dropdown {
 
 .show{
     display: block;
+    width: 300px;
+    left: 10px;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
@@ -349,9 +341,6 @@ i:hover{
     .text, .menu-text{
         font-size: 2.5rem;
     }
-    .popup{
-        margin-left: 100px;
-    }
     .contact-container{
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 30px;
@@ -368,7 +357,7 @@ i:hover{
     }
 }
 
-@media(min-width: 1024px){
+@media(min-width: 1024px){    
     .menu-grid{
         grid-template-columns: 1fr 1fr;
     }
@@ -397,6 +386,12 @@ i:hover{
 }
 
 @media(min-width: 1200px){
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: rgba(205,80,67,0.3);
+    }
     .menu-grid{
         grid-template-columns: 1fr 1fr;
     }
