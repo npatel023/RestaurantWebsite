@@ -15,13 +15,13 @@
     <div id="background">
         <ul>
             <li class="dropdown">
-                <a href="#!" class="dropbtn">Menu  <i class="fa fa-caret-down"></i></a>
+                <a onclick="openMenu()" href="#!" class="dropbtn">Menu  <i class="fa fa-caret-down"></i></a>
                 <div class="dropdown-content">
-                    <a href="#Appetizers">Appetizers</a>
-                    <a href="#Entrees">Entrees</a>
-                    <a href="#Breads">Breads</a>
-                    <a href="#Deserts">Deserts</a>
-                    <a href="#Beverages">Beverages</a>
+                    <a onclick="closeMenu()" href="#Appetizers">Appetizers</a>
+                    <a onclick="closeMenu()" href="#Entrees">Entrees</a>
+                    <a onclick="closeMenu()" href="#Breads">Breads</a>
+                    <a onclick="closeMenu()" href="#Deserts">Deserts</a>
+                    <a onclick="closeMenu()" href="#Beverages">Beverages</a>
                 </div>
             </li>
             <li><a href="#restaurant-information">Contact</a></li>
@@ -233,7 +233,7 @@
                         <br>
                         <span class="description">Black lentils and kidney beans tempered with ginger, garlic, onions, butter, and spices</span>
                     </p>
-                    <p class="Menu-item">Muttat Paneer<span class="menu-price">11.99</span>
+                    <p class="Menu-item">Muttar Paneer<span class="menu-price">11.99</span>
                         <br>
                         <span class="description">Homemade fresh cheese and green peas cooked in a tomato and onion sauce</span>
                     </p>
@@ -249,7 +249,7 @@
                         <br>
                         <span class="description">Boneless pieces of chicken cooked with green chilis</span>
                     </p>
-                    <p class="Menu-item">Lamb Rogan Josh<span class="menu-price">13.99</span>
+                    <p class="Menu-item">Lamb Rogan Josh<span class="menu-price">14.99</span>
                         <br>
                         <span class="description">Pieces of lamb cooked in an onion, tomato, and yogurt sauce</span>
                     </p>
@@ -265,7 +265,7 @@
                         <br>
                         <span class="description">fish cooked in coconut milk, onion, and tomatoes</span>
                     </p>
-                    <p class="Menu-item">Goat Shrimp Curry<span class="menu-price">15.99</span>
+                    <p class="Menu-item">Goan Shrimp Curry<span class="menu-price">15.99</span>
                         <br>
                         <span class="description">shrimps cooked in coconut milk, onion, tomatoes, and tamarind</span>
                     </p>
@@ -273,7 +273,7 @@
                         <br>
                         <span class="description">Minced lamb and green peas cooked with ginger, garlic, green chili, and cilantro</span>
                     </p>
-                    <p class="Menu-item">Shrimp Chili Fry<span class="menu-price">10.99</span>
+                    <p class="Menu-item">Shrimp Chili Fry<span class="menu-price">15.99</span>
                         <br>
                         <span class="description">Fresh shrimp sauteed with bell pepper, onion, tomato, ginger and garlic</span>
                     </p>
@@ -391,8 +391,8 @@
                 <p class="hours-text">Tuesday - Friday: 11:00am - 2:30pm</p>
                 <p class="hours-text">Saturday - Sunday: 11:00am - 3:00pm</p>
                 <p class="hours-text hours">Evening Hours</p>
-                <p class="hours-text">Tuesday - Friday: 5:00pm - 9:30pm</p>
-                <p class="hours-text">Saturday - Sunday: 5:00am - 9:00pm</p>
+                <p class="hours-text">Tuesday - Saturday: 5:00pm - 9:30pm</p>
+                <p class="hours-text">Sunday: 5:00am - 9:00pm</p>
             </div>
             <div class="contact-item">
                 <p class="contact-header">Place An Order To Pickup</p>
