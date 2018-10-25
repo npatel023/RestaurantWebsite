@@ -357,7 +357,7 @@ i:hover{
     }
 }
 
-@media(min-width: 1024px){    
+@media(min-width: 1024px){  
     .menu-grid{
         grid-template-columns: 1fr 1fr;
     }
@@ -386,12 +386,12 @@ i:hover{
 }
 
 @media(min-width: 1200px){
-    .dropdown:hover .dropdown-content {
+    /* .dropdown:hover .dropdown-content {
         display: block;
     }
     .dropdown-content a:hover {
         background-color: rgba(205,80,67,0.3);
-    }
+    }   */
     .menu-grid{
         grid-template-columns: 1fr 1fr;
     }

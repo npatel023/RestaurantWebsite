@@ -1,14 +1,3 @@
-//remove all attributes for onclick in menu dropdown
-let width = screen.width;
-if(width > 1024)
-{
-    document.querySelector('.dropbtn').removeAttribute("onclick");
-    let dropdown = document.querySelector('.dropdown-content').getElementsByTagName('*');
-    for(let i = 0; i < dropdown.length; i++){
-        dropdown[i].removeAttribute("onclick");
-    }
-}
-
 function showHoursPopup(){
     let element = document.getElementById('hours');
     element.classList.toggle("show");
@@ -31,7 +20,7 @@ function openMenu(){
 }
 
 function closeMenu(){
-    let menu = document.querySelector('.dropdown-content');
+    const menu = document.querySelector('.dropdown-content');
     menu.style.display = 'none';
 }
 
